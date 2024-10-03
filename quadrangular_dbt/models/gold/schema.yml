@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: ranking_mvm
+    columns:
+      - name: nome_atleta
+        tests:
+          - unique
+          - not_null
+      - name: pontuacao_total
+        tests:
+          - unique
+          - not_null
+      - name: qtd_participacoes
+        tests:
+          - unique
+          - not_null

@@ -1,0 +1,159 @@
+[0m20:14:16.356160 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291D7EEFD70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291DA88D3A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291D7E61D90>]}
+
+
+============================== 20:14:16.359159 | b702b86a-e86d-42cb-95e8-3447900216c0 ==============================
+[0m20:14:16.359159 [info ] [MainThread]: Running with dbt=1.9.0-b1
+[0m20:14:16.360158 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\thyag\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init quadrangular_dbt', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:14:16.407032 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/thyag/.dbt')}
+[0m20:14:16.407032 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m20:14:16.409139 [debug] [MainThread]: Starter project path: C:\Users\thyag\jornada-de-dados\workshop-pipeline-open-ai-datawarehouse\.venv\Lib\site-packages\dbt\include\starter_project
+[0m20:14:16.423858 [info ] [MainThread]: 
+Your new dbt project "quadrangular_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:14:16.425362 [info ] [MainThread]: Setting up your profile.
+[0m20:16:43.931433 [info ] [MainThread]: Profile quadrangular_dbt written to C:\Users\thyag\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m20:16:43.933430 [debug] [MainThread]: Command `dbt init` succeeded at 20:16:43.933430 after 147.67 seconds
+[0m20:16:43.933430 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291DA07F560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291D7E61D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291DAD1B110>]}
+[0m20:16:43.933430 [debug] [MainThread]: Flushing usage events
+[0m20:16:44.734334 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:17:20.730304 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B6AD33380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B6AB1C110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B6B2B5EB0>]}
+
+
+============================== 20:17:20.763506 | 2254960a-7b8d-4d84-837d-3f3b891262ee ==============================
+[0m20:17:20.763506 [info ] [MainThread]: Running with dbt=1.9.0-b1
+[0m20:17:20.764508 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\thyag\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:17:20.778267 [info ] [MainThread]: dbt version: 1.9.0-b1
+[0m20:17:20.778267 [info ] [MainThread]: python version: 3.12.5
+[0m20:17:20.779264 [info ] [MainThread]: python path: C:\Users\thyag\jornada-de-dados\workshop-pipeline-open-ai-datawarehouse\.venv\Scripts\python.exe
+[0m20:17:20.779264 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m20:17:20.819266 [info ] [MainThread]: Using profiles dir at C:\Users\thyag\.dbt
+[0m20:17:20.820265 [info ] [MainThread]: Using profiles.yml file at C:\Users\thyag\.dbt\profiles.yml
+[0m20:17:20.821264 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\thyag\jornada-de-dados\workshop-pipeline-open-ai-datawarehouse\dbt_project.yml
+[0m20:17:20.823267 [info ] [MainThread]: adapter type: postgres
+[0m20:17:20.823267 [info ] [MainThread]: adapter version: 1.8.2
+[0m20:17:20.824266 [info ] [MainThread]: Configuration:
+[0m20:17:20.824266 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:17:20.824266 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m20:17:20.824266 [info ] [MainThread]: Required dependencies:
+[0m20:17:20.825266 [debug] [MainThread]: Executing "git --help"
+[0m20:17:20.838265 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:17:20.838265 [debug] [MainThread]: STDERR: "b''"
+[0m20:17:20.839267 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:17:20.839267 [info ] [MainThread]: Connection:
+[0m20:17:20.840267 [info ] [MainThread]:   host: 34.218.235.113
+[0m20:17:20.840267 [info ] [MainThread]:   port: 5432
+[0m20:17:20.840267 [info ] [MainThread]:   user: greenvest
+[0m20:17:20.840267 [info ] [MainThread]:   database: soccerbets
+[0m20:17:20.841266 [info ] [MainThread]:   schema: transacional
+[0m20:17:20.841962 [info ] [MainThread]:   connect_timeout: 10
+[0m20:17:20.841962 [info ] [MainThread]:   role: None
+[0m20:17:20.842467 [info ] [MainThread]:   search_path: None
+[0m20:17:20.842467 [info ] [MainThread]:   keepalives_idle: 0
+[0m20:17:20.842467 [info ] [MainThread]:   sslmode: None
+[0m20:17:20.843475 [info ] [MainThread]:   sslcert: None
+[0m20:17:20.843475 [info ] [MainThread]:   sslkey: None
+[0m20:17:20.843475 [info ] [MainThread]:   sslrootcert: None
+[0m20:17:20.844475 [info ] [MainThread]:   application_name: dbt
+[0m20:17:20.844475 [info ] [MainThread]:   retries: 1
+[0m20:17:20.844475 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m20:17:20.845472 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m20:17:22.216712 [debug] [MainThread]: Using postgres connection "debug"
+[0m20:17:22.217709 [debug] [MainThread]: On debug: select 1 as id
+[0m20:17:22.217709 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:17:22.217709 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m20:17:22.218710 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m20:17:22.218710 [debug] [MainThread]: On debug: No close available on handle
+[0m20:17:22.218710 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m20:17:22.219710 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m20:17:22.220712 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\thyag\jornada-de-dados\workshop-pipeline-open-ai-datawarehouse\dbt_project.yml> not found
+
+[0m20:17:22.220712 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  invalid dsn: missing "=" after "S�" in connection info string
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m20:17:22.222710 [debug] [MainThread]: Command `dbt debug` failed at 20:17:22.222710 after 1.62 seconds
+[0m20:17:22.222710 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:17:22.222710 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B6B3CA210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B685D1D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B6B432090>]}
+[0m20:17:22.223710 [debug] [MainThread]: Flushing usage events
+[0m20:17:22.812299 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:18:02.538209 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015F39E402C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015F3A08A900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015F3A5E98E0>]}
+
+
+============================== 20:18:02.571888 | e1e2c8de-5632-4ac3-bf1f-c6f8e5194535 ==============================
+[0m20:18:02.571888 [info ] [MainThread]: Running with dbt=1.9.0-b1
+[0m20:18:02.572980 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\thyag\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:18:02.584067 [info ] [MainThread]: dbt version: 1.9.0-b1
+[0m20:18:02.585067 [info ] [MainThread]: python version: 3.12.5
+[0m20:18:02.585067 [info ] [MainThread]: python path: C:\Users\thyag\jornada-de-dados\workshop-pipeline-open-ai-datawarehouse\.venv\Scripts\python.exe
+[0m20:18:02.586075 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m20:18:02.627709 [info ] [MainThread]: Using profiles dir at C:\Users\thyag\.dbt
+[0m20:18:02.627709 [info ] [MainThread]: Using profiles.yml file at C:\Users\thyag\.dbt\profiles.yml
+[0m20:18:02.628709 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\thyag\jornada-de-dados\workshop-pipeline-open-ai-datawarehouse\dbt_project.yml
+[0m20:18:02.628709 [info ] [MainThread]: adapter type: postgres
+[0m20:18:02.629709 [info ] [MainThread]: adapter version: 1.8.2
+[0m20:18:02.629709 [info ] [MainThread]: Configuration:
+[0m20:18:02.629709 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:18:02.629709 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m20:18:02.630709 [info ] [MainThread]: Required dependencies:
+[0m20:18:02.630709 [debug] [MainThread]: Executing "git --help"
+[0m20:18:02.645291 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:18:02.646294 [debug] [MainThread]: STDERR: "b''"
+[0m20:18:02.646294 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:18:02.646294 [info ] [MainThread]: Connection:
+[0m20:18:02.647293 [info ] [MainThread]:   host: 34.218.235.113
+[0m20:18:02.647293 [info ] [MainThread]:   port: 5432
+[0m20:18:02.648292 [info ] [MainThread]:   user: greenvest
+[0m20:18:02.648292 [info ] [MainThread]:   database: soccerbets
+[0m20:18:02.648292 [info ] [MainThread]:   schema: transacional
+[0m20:18:02.648292 [info ] [MainThread]:   connect_timeout: 10
+[0m20:18:02.649291 [info ] [MainThread]:   role: None
+[0m20:18:02.649291 [info ] [MainThread]:   search_path: None
+[0m20:18:02.649291 [info ] [MainThread]:   keepalives_idle: 0
+[0m20:18:02.649291 [info ] [MainThread]:   sslmode: None
+[0m20:18:02.650292 [info ] [MainThread]:   sslcert: None
+[0m20:18:02.650292 [info ] [MainThread]:   sslkey: None
+[0m20:18:02.650292 [info ] [MainThread]:   sslrootcert: None
+[0m20:18:02.650292 [info ] [MainThread]:   application_name: dbt
+[0m20:18:02.651292 [info ] [MainThread]:   retries: 1
+[0m20:18:02.651292 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m20:18:02.652295 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m20:18:02.689526 [debug] [MainThread]: Using postgres connection "debug"
+[0m20:18:02.689526 [debug] [MainThread]: On debug: select 1 as id
+[0m20:18:02.689526 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:18:04.541217 [debug] [MainThread]: SQL status: SELECT 1 in 1.852 seconds
+[0m20:18:04.542217 [debug] [MainThread]: On debug: Close
+[0m20:18:04.543216 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m20:18:04.544216 [info ] [MainThread]: [31m1 check failed:[0m
+[0m20:18:04.544216 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\thyag\jornada-de-dados\workshop-pipeline-open-ai-datawarehouse\dbt_project.yml> not found
+
+[0m20:18:04.545217 [debug] [MainThread]: Command `dbt debug` failed at 20:18:04.545217 after 2.09 seconds
+[0m20:18:04.545217 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:18:04.546216 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015F39CA3E30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015F37F54650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015F37123C20>]}
+[0m20:18:04.546216 [debug] [MainThread]: Flushing usage events
+[0m20:18:05.190766 [debug] [MainThread]: An error was encountered while trying to flush usage events

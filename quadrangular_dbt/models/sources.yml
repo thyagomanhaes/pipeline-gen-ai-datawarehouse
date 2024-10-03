@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: quadrangular_source
+    schema: transacional
+    tables:
+      - name: quadrangular_melhor_volei_do_mundo
